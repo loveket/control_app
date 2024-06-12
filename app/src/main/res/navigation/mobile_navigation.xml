@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_device">
+
+    <fragment
+        android:id="@+id/nav_device"
+        android:name="com.example.leddemo3.ui.devicemode.DeviceFragment"
+        android:label="设备"
+        tools:layout="@layout/fragment_device" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.leddemo3.ui.switchhome.HomeFragment"
+        android:label="开关"
+        tools:layout="@layout/fragment_switch" />
+
+    <fragment
+        android:id="@+id/nav_onemode"
+        android:name="com.example.leddemo3.ui.onemode.OneModeFragment"
+        android:label="@string/menu_onemode"
+        tools:layout="@layout/fragment_onemode" />
+
+    <fragment
+        android:id="@+id/nav_twomode"
+        android:name="com.example.leddemo3.ui.twomode.TwoModeFragment"
+        android:label="@string/menu_twomode"
+        tools:layout="@layout/fragment_twomode" />
+    <fragment
+        android:id="@+id/nav_threemode"
+        android:name="com.example.leddemo3.ui.threemode.ThreeModeFragment"
+        android:label="@string/menu_threemode"
+        tools:layout="@layout/fragment_threemode" />
+    <fragment
+        android:id="@+id/nav_fourmode"
+        android:name="com.example.leddemo3.ui.fourmode.FourModeFragment"
+        android:label="@string/menu_fourmode"
+        tools:layout="@layout/fragment_fourmode" />
+    <fragment
+        android:id="@+id/nav_lightness"
+        android:name="com.example.leddemo3.ui.lightness.LightnessFragment"
+        android:label="@string/menu_lightness"
+        tools:layout="@layout/fragment_lightness" />
+    <fragment
+        android:id="@+id/nav_hw"
+        android:name="com.example.leddemo3.ui.hotandwet.HWFragment"
+        android:label="@string/menu_hw"
+        tools:layout="@layout/fragment_hotandwet" />
+</navigation>

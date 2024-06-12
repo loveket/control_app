@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_device"
+            android:title="@string/menu_device" />
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_switch" />
+        <item
+            android:id="@+id/nav_onemode"
+            android:title="@string/menu_onemode" />
+        <item
+            android:id="@+id/nav_twomode"
+            android:title="@string/menu_twomode" />
+        <item
+            android:id="@+id/nav_threemode"
+            android:title="@string/menu_threemode" />
+        <item
+            android:id="@+id/nav_fourmode"
+            android:title="@string/menu_fourmode" />
+        <item
+            android:id="@+id/nav_lightness"
+            android:title="@string/menu_lightness" />
+        <item
+            android:id="@+id/nav_hw"
+            android:title="@string/menu_hw" />
+    </group>
+</menu>

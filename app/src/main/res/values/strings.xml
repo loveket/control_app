@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LedDemo3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">智能科技</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_device">设备</string>
+    <string name="menu_switch">开关</string>
+    <string name="menu_onemode">标准模式</string>
+    <string name="menu_twomode">流水模式</string>
+    <string name="menu_threemode">往返模式</string>
+    <string name="menu_fourmode">聚散模式</string>
+    <string name="menu_lightness">调节亮度</string>
+    <string name="menu_hw">温度/湿度</string>
+</resources>

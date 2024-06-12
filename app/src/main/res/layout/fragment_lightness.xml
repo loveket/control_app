@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.lightness.LightnessFragment"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <SeekBar
+            android:id="@+id/seekBarId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:progress="150"
+            android:max="255"
+            tools:ignore="MissingConstraints"
+            android:progressDrawable="@drawable/custom_brightness_seekbar"
+            />
+<!--        <Button-->
+<!--            android:id="@+id/submitlightness"-->
+<!--            android:layout_width="30mm"-->
+<!--            android:layout_height="10mm"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:drawablePadding="4dp"-->
+<!--            android:layout_marginTop="70dp"-->
+<!--            android:textColor="#ffff99"-->
+<!--            android:text="提   交"-->
+<!--            android:textSize="20sp"-->
+<!--            android:background="@drawable/buttonmode"-->
+<!--            tools:ignore="MissingConstraints" />-->
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
